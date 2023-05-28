@@ -2,8 +2,8 @@
 
 #include <chrono>
 
-struct Candle {
-    double open_price_;
-    double close_price_;
-    std::chrono::system_clock::time_point time_;
+struct Price {
+    double open_price;
+    double close_price;
+    std::chrono::system_clock::time_point time;
 };
