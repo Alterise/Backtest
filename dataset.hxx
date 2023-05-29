@@ -9,8 +9,8 @@
 class Dataset {
 public:
     explicit Dataset(const std::filesystem::path& begin);
-    std::vector<Price> Get() const;
+    // std::vector<Price> Get() const;
 private:
-    void ParseDataset(const std::filesystem::path& path);
+    // void ParseDataset(const std::filesystem::path& path);
     std::vector<Price> data_;
 };
